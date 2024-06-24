@@ -56,7 +56,7 @@ Para rodar a aplicação, você pode usar o comando:
 ./mvnw spring-boot:run
 ```
 
-ou, se estiver usando uma IDE como IntelliJ IDEA ou Eclipse, pode rodar a classe CurrencyConverterApplication diretamente.
+ou, se estiver usando uma IDE como IntelliJ IDEA ou Eclipse, pode rodar a classe CoinExchangeApplication diretamente.
 
 ## Testar a API
 
