@@ -65,7 +65,7 @@ Com a aplicação rodando, você pode testar a API usando um navegador web, cURL
 Exemplo de requisição:
 
 ```bash
-GET http://localhost:8000/exchange/10/BRL/USD/4.50
+GET http://localhost:8080/exchange/10/BRL/USD/4.50
 ```
 
 Resposta esperada:
