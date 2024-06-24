@@ -2,13 +2,13 @@
 Uma REST API que faz conversão de moedas.
 
 ## Especifícações:
+A URL da requisição deve seguir o seguinte formato:
 
-    A URL da requisição deve seguir o seguinte formato:
 ```bash
     http://localhost:8080/exchange/{amount}/{from}/{to}/{rate}
     http://localhost:8080/exchange/10/BRL/USD/4.50
-```     
-    A resposta deve seguir o seguinte formato:
+```
+A resposta deve seguir o seguinte formato:
 
 ```bash
     {
