@@ -70,7 +70,6 @@ GET http://localhost:8000/exchange/10/BRL/USD/4.50
 
 Resposta esperada:
 
-json
 ```json
 {
 "valorConvertido": 45.0,
