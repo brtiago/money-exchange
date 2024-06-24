@@ -22,3 +22,56 @@ Uma REST API que faz conversão de moedas.
 * De Euro para Real;
 
 Serão executados testes para validação das conversões:
+
+
+## Estrutura do Projeto
+A estrutura do projeto será parecida com esta:
+```bash
+src
+├── main
+│   ├── java
+│   │   └── edu
+│   │       └── tiago
+│   │           └── coin_exchange
+│   │               └── controller
+|   |                   ├── ExchangeController.java
+│   │               └── CoinExchangeApplication.java
+│   └── resources
+│       └── application.properties
+└── test
+    └── java
+        └── edu
+            └── tiago
+                └── coin_exchange
+                    └── CoinExchangeApplicationTests.java
+```
+
+## Rodar o Projeto
+
+Para rodar a aplicação, você pode usar o comando:
+
+```bash
+./mvnw spring-boot:run
+```
+
+ou, se estiver usando uma IDE como IntelliJ IDEA ou Eclipse, pode rodar a classe CurrencyConverterApplication diretamente.
+
+## Testar a API
+
+Com a aplicação rodando, você pode testar a API usando um navegador web, cURL, ou ferramentas como Postman.
+
+Exemplo de requisição:
+
+```bash
+GET http://localhost:8000/exchange/10/BRL/USD/4.50
+```
+
+Resposta esperada:
+
+json
+```json
+{
+"valorConvertido": 45.0,
+"simboloMoeda": "$"
+}
+```
